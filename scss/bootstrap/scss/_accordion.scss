@@ -1,6 +1,4 @@
-//
-// Base styles
-//
+
 
 .accordion-button {
   position: relative;
@@ -10,7 +8,7 @@
   padding: $accordion-button-padding-y $accordion-button-padding-x;
   @include font-size($font-size-base);
   color: $accordion-button-color;
-  text-align: left; // Reset button style
+  text-align: left; 
   background-color: $accordion-button-bg;
   border: 0;
   @include border-radius(0);
@@ -28,7 +26,7 @@
     }
   }
 
-  // Accordion icon
+ 
   &::after {
     flex-shrink: 0;
     width: $accordion-icon-width;

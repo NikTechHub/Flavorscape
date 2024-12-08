@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    // Spinner
+    
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
@@ -12,7 +12,7 @@
     spinner(0);
 
 
-    // Fixed Navbar
+    
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.fixed-top .container').addClass('shadow-sm').css('max-width', '100%');
@@ -22,7 +22,6 @@
     });
 
 
-    // Donation
     $('.progress').waypoint(function () {
         $('.progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
